@@ -1,0 +1,20 @@
+{
+  "name": "instagramscript",
+  "version": "1.0.0",
+  "description": "Collect Data form my Sandbox account",
+  "main": "index.js",
+  "repository": "https://github.com/rafaelferreira6/mastersthesis18",
+  "author": "Rafael Ferreira",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "babel-node server.js"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "express": "^4.16.3",
+    "instagram-node": "^0.5.8",
+    "node-instagram": "^4.1.0"
+  }
+}
