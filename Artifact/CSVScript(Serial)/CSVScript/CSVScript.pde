@@ -11,7 +11,7 @@ String c;
 void setup() {
   port = new Serial(this, Serial.list()[1], 9600);
 
-  //println(Serial.list());
+  println(Serial.list());
 
   table = new Table();
   table.addColumn("Date");
@@ -81,6 +81,6 @@ void draw() {
       }
     }
     //newRow.setString("Longitude", data);
-    saveTable(table, "data/new.csv");
+    saveTable(table, "data/new_timer.csv");
   }
 }
